@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ramen-rating-app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h3>Ramen Rater</h3>
+            <p>Welcome To our Restaurant. Feel Free Anytime!!!</p>
+    </header>
+
+    <main>
+        <div id="ramen">
+            <img src="kojiro.jpg" alt="ko">
+            <img src="I1.jpg" alt="I">
+            <img src="nirvana.jpg" alt="ni">
+            <img src="shoyu.jpg" alt="sh">
+            <img src="naruto.jpg" alt="na">
+        </div>
+       <div id="place">
+           <img class="holder" src="image_here.png" alt="">
+           <h2 class="name">Ramen</h2>
+           <h3 class="restaurant">Restaurant</h3>
+        </div>
+
+             <h3>Rating</h3>
+        <p>
+        <span id='rating-display'>Rating Goes Here</span> /10
+        </p>
+        <h3>Comment</h3>
+        <p id='comment-display'>Comment Goes Here</p>
+
+        <form id="new-ramen">
+            <h4>Add New Ramen</h4>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="new-name" />
+               <label for="restaurant">Restaurant </label>
+            <input type="text" name="restaurant" id="new restaurant" />
+            <input for="image">Image: </label>
+            <input type="text" name="image" id="new-image" />
+            <label for="rating">Rating: </label>
+            <input type="number" name="rating" id="new-rating" />
+            <label for="new-comment">Comment: </label>
+            <textarea name="new-comment" id="new-comment"></textarea>
+            <input type="submit" value="Create" />
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Thank You For Your Positive comment</p>
+    </footer>
+</body>
+</html>
